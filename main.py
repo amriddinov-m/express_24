@@ -21,6 +21,7 @@ def user_process():
     second_list = input('Enter second list: ')
     total_sum = calculate_numbers(first_list, second_list)
     result = reversed_list(total_sum)
+    print(result)
     return result
 
 
